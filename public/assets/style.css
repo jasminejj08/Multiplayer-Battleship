@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.displaycontainer {
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 15% ;
+}
+
+
+
+.playerinfo {
+    display: flexbox
+}
+
+.player.p1 {
+    text-align: left;
+}
+
+.player.p2 {
+    text-align: right;
+}
+.connected, .ready {
+    font-weight: normal;
+}
+
+.connected span,
+.ready span {
+    display: inline-block;
+    border: 1px;
+    border-radius: 10px;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+}
+
+span.green {
+    background-color: green;
+}
